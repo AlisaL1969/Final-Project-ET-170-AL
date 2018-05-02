@@ -13,13 +13,13 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: url("https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?cs=srgb&dl=animals-breed-cats-140134.jpg&fm=jpg") center center no-repeat;
+  background: url<"https://kids.nationalgraphic.com/explore/cats-rule-in-ancient-egypt/_jcr_content/content/textimage/image.ngsversion.1414525489847.img.jpg">center center no-repeat;
   background-size: cover;
 }
 
 .hero-full-screen .middle-content-section {
   text-align: center;
-  color: #960018;
+  color: #D4Af37	;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -34,7 +34,7 @@
 .hero-full-screen .bottom-content-section svg {
   height: 3.75rem;
   width: 3.75rem;
-  fill: #960018;
+  fill: #D4Af37	;
 }
 
 .hero-full-screen .top-bar {
@@ -46,7 +46,7 @@
 }
 
 .hero-full-screen .top-bar .menu-text {
-  color: #960018;
+  color: #D4Af37	;
 
 }
 
@@ -55,12 +55,12 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
+      -ms-flex-align: center;f
           align-items: center;
 }
 
 .hero-full-screen .top-bar .menu a {
-  color: #960018;
+  color: #D4Af37	;
   font-weight: bold;
 
 }
