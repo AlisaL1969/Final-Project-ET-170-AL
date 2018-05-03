@@ -1,14 +1,13 @@
 
 .contact-us-section {
-  padding: 0rem;
+  padding: 1rem;
   background: #fefefe;
 }
 
 .contact-us-section .contact-us-section-left {
-  padding-right: 0rem;
-  border-bottom: 0px solid #e6e6e6;
-  padding-bottom: 0rem;
-  margin-bottom: 0rem;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 @media print, screen and (min-width: 0em) {
@@ -21,7 +20,7 @@
 }
 
 .contact-us-section .contact-us-section-right {
-  padding-left: 0rem;
+  padding-left: 1rem;
 }
 
 @media print, screen and (min-width: 40em) {
