@@ -11,6 +11,7 @@
 }
 
 .testimonial-slider-container .orbit-previous:hover, .testimonial-slider-container .orbit-previous:active, .testimonial-slider-container .orbit-previous:focus,
+.testimonial-slider-container .orbit-next:hover,
 .testimonial-slider-container .orbit-next:active,
 .testimonial-slider-container .orbit-next:focus {
   background-color: transparent;

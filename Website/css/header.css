@@ -1,5 +1,5 @@
 
-.hero-full-screen {
+.hero-background {
   height: 100vh;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -13,9 +13,9 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: url<"https://kids.nationalgraphic.com/explore/cats-rule-in-ancient-egypt/_jcr_content/content/textimage/image.ngsversion.1414525489847.img.jpg">center center no-repeat;
+  background: url<"https://kids.nationalgeographic.com/explore/cats-rule-in-ancient-egypt/_jcr_content/content/textimage/image.ngsversion.1414525489847.img.jpg">center center no-repeat;
   background-size: cover;
-}
+  }
 
 .hero-full-screen .middle-content-section {
   text-align: center;
@@ -31,18 +31,18 @@
   padding: 1rem;
 }
 
-.hero-full-screen .bottom-content-section svg {
-  height: 3.75rem;
-  width: 3.75rem;
+.hero-full-screen .bottom-content-section {
+  height: 2.75rem;
+  width: 2.75rem;
   fill: #D4Af37	;
 }
 
 .hero-full-screen .top-bar {
-  background: transparent;
+  color:  #3B6AA0	 ;
 }
 
 .hero-full-screen .top-bar .menu {
-  background: transparent;
+  color:  #3B6AA0	 ;
 }
 
 .hero-full-screen .top-bar .menu-text {
@@ -60,7 +60,7 @@
 }
 
 .hero-full-screen .top-bar .menu a {
-  color: #D4Af37	;
+  color: #3B6AA0		;
   font-weight: bold;
 
 }
