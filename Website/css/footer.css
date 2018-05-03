@@ -1,17 +1,17 @@
 
 .contact-us-section {
-  padding: 1rem;
+  padding: 0rem;
   background: #fefefe;
 }
 
 .contact-us-section .contact-us-section-left {
-  padding-right: 1rem;
-  border-bottom: 1px solid #e6e6e6;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
+  padding-right: 0rem;
+  border-bottom: 0px solid #e6e6e6;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
 }
 
-@media print, screen and (min-width: 40em) {
+@media print, screen and (min-width: 0em) {
   .contact-us-section .contact-us-section-left {
     border-right: 1px solid #e6e6e6;
     border-bottom: 0;
@@ -21,7 +21,7 @@
 }
 
 .contact-us-section .contact-us-section-right {
-  padding-left: 1rem;
+  padding-left: 0rem;
 }
 
 @media print, screen and (min-width: 40em) {
@@ -42,7 +42,7 @@
 
 .contact-us-section .responsive-embed {
   margin-bottom: 0;
-  padding-bottom: 55%;
+  padding-bottom: 20%;
 }
 
 .contact-us-form input[type=text],
