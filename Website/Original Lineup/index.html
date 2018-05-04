@@ -76,7 +76,109 @@
 
 
 <!--*Begin Content-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+    border: 1px solid #ccc;
+}
 
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Original Cat Pack "The Feline Brady Bunch" 1992-2012</h2>
+<h4>When my husband and I got married in 2008, we each brought 2 cats into the new family!</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/riley.jpeg">
+      <img src="images/riley.jpeg" alt="Riley" width="300" height="200">
+    </a>
+    <div class="desc">Riley:  Our Oreo cookie!</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/Rusty.jpg">
+      <img src="images/Rusty.jpg" alt="Rusty" width="600" height="400">
+    </a>
+    <div class="desc">Rusty:  This is how he slept!</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/Sarahbed.jpg">
+      <img src="images/Sarahbed.jpg" alt="Sarah" width="600" height="400">
+    </a>
+    <div class="desc">Sarah:  The  expressive talker!</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/Nala.jpg">
+      <img src="images/Nala.jpg" alt="Nala" width="600" height="400">
+    </a>
+    <div class="desc">Nala:  Now the oldest and sweetest!</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>My girls Riley and Sarah came to live with my husbands' Rusty and Nala in 2008.  Sadly, we lost Riley (17), Rusty (15) and Sarah (12) to various feline illnesses.  They will be forever in our hearts and are missed every day!</p>
+  <p>The youngest of the "Original Lineup", Nala (now 14), is now the eldest of the whole current crew!</p>
+</div>
+
+</body>
+</html>
 
 <!--*End Content-->
 
