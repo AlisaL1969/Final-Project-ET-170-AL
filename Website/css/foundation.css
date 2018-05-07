@@ -29,6 +29,10 @@ html {
   /* 3 */
   -webkit-text-size-adjust: 100%;
   /* 3 */ }
+  #page-wrap {
+     width: 800px;
+     margin: 0 auto;
+}
 
 /* Sections
        ========================================================================== */
